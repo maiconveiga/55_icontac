@@ -10,6 +10,7 @@ function App() {
         <BarraLateral />
         <SecaoPrincipal />
       </ContainerGeral>
+      {/* Parei na aula Construa o componente de filtro */}
     </>
   )
 }

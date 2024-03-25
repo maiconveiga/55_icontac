@@ -9,11 +9,12 @@ const EstiloGlobal = createGlobalStyle`
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
+  list-style:none;
 }
 `
 
 export const ContainerGeral = styled.div`
   display: grid;
-  grid-template-columns: 400px auto;
+  grid-template-columns: 280px auto;
 `
 export default EstiloGlobal
