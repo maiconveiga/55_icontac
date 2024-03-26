@@ -1,10 +1,23 @@
-import { ListaDeContatos } from '../../components/ListaDeContatos'
+import { Contato } from '../../components/Contato'
 import { SecaoPrincipalStyle } from './styles'
 
 export const SecaoPrincipal = () => {
   return (
     <SecaoPrincipalStyle>
-      <ListaDeContatos />
+      <ul>
+        <li>
+          <Contato />
+        </li>
+        <li>
+          <Contato />
+        </li>
+        <li>
+          <Contato />
+        </li>
+        <li>
+          <Contato />
+        </li>
+      </ul>
     </SecaoPrincipalStyle>
   )
 }
