@@ -1,4 +1,5 @@
 import { styled } from 'styled-components'
+import variaveis from '../../globalStyles/variaveis'
 
 export const Formulario = styled.form`
   margin-top: 10px;
@@ -6,28 +7,21 @@ export const Formulario = styled.form`
     width: 100%;
     border-radius: 7px;
     margin-top: 5px;
-    color: black;
+    color: ${variaveis.dadosLetraCor};
     outline: none;
     border: none;
     padding: 8px 0;
   }
 
   ::-webkit-input-placeholder {
-    color: grey;
+    color: ${variaveis.secaoPrincipalCor};
   }
   ::-ms-input-placeholder {
-    color: grey;
+    color: ${variaveis.secaoPrincipalCor};
   }
 
   button {
     margin-top: 5px;
     width: 100%;
-    background-color: green;
-    color: white;
-    border-radius: 7px;
-    outline: none;
-    border: none;
-    padding: 8px 0;
-    cursor: pointer;
   }
 `

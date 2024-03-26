@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import variaveis from '../../globalStyles/variaveis'
 
 export const Card = styled.div`
-  background-color: #fcfcfc;
+  background-color: ${variaveis.fundoCardCor};
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 16px;
   display: flex;
@@ -13,10 +14,16 @@ export const DadosContato = styled.div`
   width: 100%;
   background-color: transparent;
   margin: 5px;
-  color: black;
+  color: ${variaveis.dadosLetraCor};
   outline: none;
   border: none;
   padding: 8px 0;
+  text-align: center;
+
+  input {
+    border: none;
+    background-color: transparent;
+  }
 `
 
 export const DadoContato = styled.textarea`
@@ -27,16 +34,31 @@ export const DadoContato = styled.textarea`
   width: 280px;
 `
 export const BarraAcoes = styled.div`
+  width: 25%;
   display: flex;
+  justify-content: space-around;
+  padding: 3px;
 `
 export const Botao = styled.button`
-  background-color: #2f3640;
   font-wight: bold;
   font-size: 18px;
-  color: #fff;
+  color: ${variaveis.botaoLetraCor};
   border-radius: 8px;
   border: none;
   padding: 4px 15px;
   cursor: pointer;
-  margin-left: 5px;
+  width: 100px;
+`
+
+export const BotaoSalvar = styled(Botao)`
+  background-color: ${variaveis.botaoSalvarCor};
+`
+export const BotaoSair = styled(Botao)`
+  background-color: ${variaveis.botaoSairDeletar};
+`
+export const BotaoDeletar = styled(Botao)`
+  background-color: ${variaveis.botaoSairDeletar};
+`
+export const BotaoEditar = styled(Botao)`
+  background-color: ${variaveis.botaoEditarCor};
 `
