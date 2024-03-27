@@ -5,10 +5,17 @@ import { RootReducer } from '../../store'
 
 export const SecaoPrincipal = () => {
   const { itens } = useSelector((state: RootReducer) => state.contatos)
+  const { termoBusca } = useSelector((state: RootReducer) => state.filtro)
+
+  const filtroContatos = () => {
+    return itens.filter(
+      (item) => item.nome.toLowerCase().search(termoBusca.toLowerCase()) >= 0
+    )
+  }
   return (
     <SecaoPrincipalStyle>
       <ul>
-        {itens.map((c) => (
+        {filtroContatos().map((c) => (
           <li key={c.id}>
             <Contato
               id={c.id}

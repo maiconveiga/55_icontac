@@ -13,6 +13,18 @@ const initialState: ContatosState = {
       nome: 'Maicon Veiga',
       email: 'veiga.maicon@gmail.com',
       telefone: '21999999999'
+    },
+    {
+      id: 2,
+      nome: 'Caroline Alves',
+      email: 'a.sousa.caroline@gmail.com',
+      telefone: '21999999999'
+    },
+    {
+      id: 3,
+      nome: 'Micael Alves',
+      email: 'alves.micael@gmail.com',
+      telefone: '21999999999'
     }
   ]
 }
