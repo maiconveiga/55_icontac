@@ -37,6 +37,17 @@ export const Contato = ({
     setEmail(emailOriginal)
     setTelefone(telefoneOriginal)
   }
+  function salvarEdicao() {
+    dispatch(
+      editar({
+        id,
+        nome,
+        telefone,
+        email
+      })
+    )
+    setEstaEditando(false)
+  }
 
   return (
     <S.Card>
@@ -64,21 +75,7 @@ export const Contato = ({
       <S.BarraAcoes>
         {estaEditando ? (
           <>
-            <S.BotaoSalvar
-              onClick={() => {
-                dispatch(
-                  editar({
-                    id,
-                    nome,
-                    telefone,
-                    email
-                  })
-                )
-                setEstaEditando(false)
-              }}
-            >
-              Salvar
-            </S.BotaoSalvar>
+            <S.BotaoSalvar onClick={salvarEdicao}>Salvar</S.BotaoSalvar>
             <S.BotaoSair onClick={cancelarEdicao}>Sair</S.BotaoSair>
           </>
         ) : (
