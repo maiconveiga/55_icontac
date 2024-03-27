@@ -11,15 +11,17 @@ const BarraLateral = () => {
   return (
     <>
       <BarraLateralStyle>
+        <main>
+          <ContainerBuscaCadastrar>
+            <EnunciadoBusca />
+            <Buscador />
+          </ContainerBuscaCadastrar>
+          <ContainerBuscaCadastrar>
+            <EnunciadoCadastro />
+            <CadastrarContato />
+          </ContainerBuscaCadastrar>
+        </main>
         <Branding />
-        <ContainerBuscaCadastrar>
-          <EnunciadoBusca />
-          <Buscador />
-        </ContainerBuscaCadastrar>
-        <ContainerBuscaCadastrar>
-          <EnunciadoCadastro />
-          <CadastrarContato />
-        </ContainerBuscaCadastrar>
       </BarraLateralStyle>
     </>
   )

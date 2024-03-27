@@ -32,7 +32,7 @@ export const DadoContato = styled.textarea`
   border: none;
   background-color: transparent;
   resize: none;
-  width: 280px;
+  width: 300px;
 `
 export const BarraAcoes = styled.div`
   width: 25%;

@@ -6,6 +6,9 @@ export const BarraLateralStyle = styled.div`
   height: 100vh;
   background-color: ${variaveis.barraLateralCor};
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `
 
 export const ContainerBuscaCadastrar = styled.div`
