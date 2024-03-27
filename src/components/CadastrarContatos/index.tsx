@@ -9,7 +9,7 @@ export const CadastrarContato = () => {
         <input required type="text" placeholder="Nome completo" />
         <input required type="email" placeholder="melhor e-mail" />
         <IMaskInput required mask="(00)0 0000-0000" placeholder="Telefone" />
-        <BotaoSalvar type="submit">Salvar</BotaoSalvar>
+        <BotaoSalvar type="submit">Cadastrar</BotaoSalvar>
       </Formulario>
     </>
   )

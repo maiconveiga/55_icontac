@@ -5,7 +5,7 @@ type FiltroState = {
 }
 
 const initialState: FiltroState = {
-  termoBusca: 'maicon'
+  termoBusca: ''
 }
 
 const filtroSlice = createSlice({

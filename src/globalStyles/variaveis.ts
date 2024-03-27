@@ -6,5 +6,6 @@ export default {
   botaoEditarCor: ' #10c4cc',
   botaoLetraCor: '#fff',
   dadosLetraCor: '#000',
-  fundoCardCor: '#fcfcfc'
+  fundoCardCor: '#fcfcfc',
+  brandingColor: '#e8ba3c'
 }

@@ -7,3 +7,10 @@ export const BarraLateralStyle = styled.div`
   background-color: ${variaveis.barraLateralCor};
   padding: 20px;
 `
+
+export const ContainerBuscaCadastrar = styled.div`
+  padding: 10px;
+  border: ${variaveis.secaoPrincipalCor} solid 0.001px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+`

@@ -8,8 +8,9 @@ export const BuscadorStyle = styled.div`
     margin-top: 5px;
     color: ${variaveis.dadosLetraCor};
     outline: none;
-    border: none;
-    padding: 8px 0;
+    border: ${variaveis.secaoPrincipalCor} solid 0.001px;
+    padding: 8px 8px;
+    background-color: transparent;
   }
   ::-webkit-input-placeholder {
     color: ${variaveis.secaoPrincipalCor};

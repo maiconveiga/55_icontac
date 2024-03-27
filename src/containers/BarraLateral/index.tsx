@@ -1,15 +1,25 @@
-import { Branding } from '../../components/Branding'
+import {
+  Branding,
+  EnunciadoCadastro,
+  EnunciadoBusca
+} from '../../components/Branding'
 import { Buscador } from '../../components/Buscador'
 import { CadastrarContato } from '../../components/CadastrarContatos'
-import { BarraLateralStyle } from './styles'
+import { BarraLateralStyle, ContainerBuscaCadastrar } from './styles'
 
 const BarraLateral = () => {
   return (
     <>
       <BarraLateralStyle>
         <Branding />
-        <Buscador />
-        <CadastrarContato />
+        <ContainerBuscaCadastrar>
+          <EnunciadoBusca />
+          <Buscador />
+        </ContainerBuscaCadastrar>
+        <ContainerBuscaCadastrar>
+          <EnunciadoCadastro />
+          <CadastrarContato />
+        </ContainerBuscaCadastrar>
       </BarraLateralStyle>
     </>
   )
