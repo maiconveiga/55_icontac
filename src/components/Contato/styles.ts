@@ -8,6 +8,7 @@ export const Card = styled.div`
   display: flex;
   width: 90%;
   margin: 10px auto;
+  border-radius: 8px;
 `
 export const DadosContato = styled.div`
   display: flex;
