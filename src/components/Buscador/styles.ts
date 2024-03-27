@@ -6,16 +6,16 @@ export const BuscadorStyle = styled.div`
     width: 100%;
     border-radius: 7px;
     margin-top: 5px;
-    color: ${variaveis.dadosLetraCor};
+    color: ${variaveis.barraLateralCor};
     outline: none;
     border: ${variaveis.secaoPrincipalCor} solid 0.001px;
     padding: 8px 8px;
     background-color: transparent;
   }
   ::-webkit-input-placeholder {
-    color: ${variaveis.secaoPrincipalCor};
+    color: ${variaveis.barraLateralCor};
   }
   ::-ms-input-placeholder {
-    color: ${variaveis.secaoPrincipalCor};
+    color: ${variaveis.barraLateralCor};
   }
 `

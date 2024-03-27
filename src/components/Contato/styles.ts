@@ -41,7 +41,7 @@ export const BarraAcoes = styled.div`
   padding: 3px;
 `
 export const Botao = styled.button`
-  font-wight: bold;
+  font-weight: 500;
   font-size: 18px;
   color: ${variaveis.botaoLetraCor};
   border-radius: 8px;

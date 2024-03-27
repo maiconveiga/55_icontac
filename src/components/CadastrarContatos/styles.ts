@@ -15,10 +15,10 @@ export const Formulario = styled.form`
   }
 
   ::-webkit-input-placeholder {
-    color: ${variaveis.secaoPrincipalCor};
+    color: ${variaveis.barraLateralCor};
   }
   ::-ms-input-placeholder {
-    color: ${variaveis.secaoPrincipalCor};
+    color: ${variaveis.barraLateralCor};
   }
 
   button {

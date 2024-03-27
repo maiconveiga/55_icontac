@@ -10,7 +10,8 @@ export const BarraLateralStyle = styled.div`
 
 export const ContainerBuscaCadastrar = styled.div`
   padding: 10px;
-  border: ${variaveis.secaoPrincipalCor} solid 0.001px;
   border-radius: 7px;
   margin-bottom: 15px;
+  background-color: ${variaveis.fundoCardCor};
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 `

@@ -7,7 +7,7 @@ export const BrandingStyle = styled.h1`
 `
 
 export const EnunciadoStyle = styled.p`
-  color: ${variaveis.secaoPrincipalCor};
+  color: ${variaveis.barraLateralCor};
   padding: 10px;
   font-size: 25px;
 `
